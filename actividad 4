@@ -1,0 +1,6 @@
+# dar un numero y obtener cuadrado y cubo
+numero = int(input("coloque un numero: "))
+numero_cuadrado = numero**2
+numero_cubo = numero**3
+print("el cuadrado de este numero es: ",numero_cuadrado)
+print("el cubo de este numero es: ",numero_cubo)
