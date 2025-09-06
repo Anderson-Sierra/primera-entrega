@@ -1,0 +1,9 @@
+# longitud y area de circunferencia
+
+import math # esto es para poder llamar el numero pi
+
+radio = int(input("ingrese el radio de la circunferencia: "))
+longitud = 2 * math.pi * radio
+area = math.pi * radio**2
+print("la longitud de la circunferencia es: ", longitud)
+print("el area de la circunferencia es: ", area)
