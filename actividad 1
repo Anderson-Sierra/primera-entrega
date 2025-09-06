@@ -1,0 +1,15 @@
+# Edad de mamá de juan
+
+edad_juan = int(input("ingese la edad de juan: ")) # acá el usuario coloca la edad
+Alberto = (2/3)*(edad_juan)
+Ana = (4/3)*(edad_juan)
+Mama_juan = edad_juan + Alberto + Ana
+
+# acá como son edades, la idea es que salgan enteros
+Alberto = int(Alberto)
+Ana = int(Ana)
+Mama_juan = int(Mama_juan)
+
+print("La edad de Alberto es de", Alberto)
+print("La edad de Ana es de", Ana)
+print("La edad de la mamá de juan es de", Mama_juan)
