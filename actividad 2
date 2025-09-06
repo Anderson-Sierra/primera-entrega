@@ -1,0 +1,10 @@
+# prueba de escritorio
+
+
+suma = 0
+x = int(input("coloque un número " ))
+suma = suma + x
+y = int(input("coloque otro número " ))
+x = x + y**2
+suma = suma + (x/y)
+print("el valor de la suma es: ", suma)
