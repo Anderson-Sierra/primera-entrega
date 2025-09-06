@@ -1,0 +1,8 @@
+# saber salario bruto, retencion de la fuente, salario neto, todo por semana
+
+salario_bruto = 48 * 5000
+retencion = salario_bruto * (12.5/100)
+salario_neto = salario_bruto - retencion
+print("el salario bruto es: ",salario_bruto)
+print("la retencion es de: ",retencion)
+print("el salario neto es de: ",salario_neto)
